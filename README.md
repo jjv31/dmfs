@@ -58,7 +58,3 @@ The code is broken into one Jupyter notebook file.
 
 ## Note on Replication
 The journal in which the dataset is published prohibits the publication of the databases that went into the construction of DM-FS Civilians (i.e., WP, MPV, and FE), as well as DM-FS Officers (i.e., LEOKA). This is because these databases contain direct personal identifiers, and the journal is not willing to publish datasets with such identifiers. Thus, to replicate the code, the user needs to download/assemble the databases himself/herself following the methods in the dataset descriptor.
-
-In this regard, exact replication is unlikely. Indeed, parts of this code - particularly in the third notebook, ORI assignment, as well as the first notebook, the database merge - operate by using the *exact* database indices that appeared in the author's database. Thus, even if the user downloads his/her own copy of WP, MPV, and FE, then unless the database indices are exactly the same as the authors, exact replication is unlikely to occur.
-
-However, the code can still be used to understand the general process by which DM-FS was created.
